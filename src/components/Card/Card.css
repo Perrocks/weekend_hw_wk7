@@ -1,0 +1,53 @@
+.Card {
+    background: #f0f0f0;
+    border-radius: 200px;
+    border: 5px black;
+    border-style: solid;
+    
+}
+
+.Card__img {
+    text-align: center;
+    
+}
+
+
+.Card__types {
+    display: flex;
+    justify-content: center;
+}
+
+.Card__type {
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border: 2px black;
+    background: #e4000f;
+    color: 	#f0f0f0;
+    text-transform: capitalize;
+}
+
+.Card__name {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.Card__info {
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.Card__data {
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.Card__data .title {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
